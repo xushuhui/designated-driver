@@ -1,5 +1,6 @@
 package cn.phpst.DesignatedDriver.core;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -7,11 +8,11 @@ import lombok.Setter;
 @Getter
 @Setter
 @AllArgsConstructor
+@Builder
 public class UnifyResponse {
-    private int Code;
-    private String Message;
+    protected int code;
+    protected String message;
+    protected String reason;
+    protected Object metadata;
 
-    public static void success() {
-
-    }
 }
