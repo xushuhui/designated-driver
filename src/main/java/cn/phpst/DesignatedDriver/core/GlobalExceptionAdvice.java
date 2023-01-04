@@ -1,6 +1,6 @@
-package cn.phpst.DesignatedDriver.core;
+package cn.phpst.designatedDriver.core;
 
-import cn.phpst.DesignatedDriver.exception.http.HttpException;
+import cn.phpst.designatedDriver.exception.http.HttpException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.*;
 import org.springframework.validation.ObjectError;

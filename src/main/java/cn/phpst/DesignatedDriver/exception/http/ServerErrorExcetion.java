@@ -1,4 +1,4 @@
-package cn.phpst.DesignatedDriver.exception.http;
+package cn.phpst.designatedDriver.exception.http;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -6,5 +6,5 @@ import lombok.Setter;
 @Getter
 @Setter
 public class ServerErrorExcetion extends HttpException{
-  
+
 }

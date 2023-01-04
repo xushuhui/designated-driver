@@ -1,4 +1,4 @@
-package cn.phpst.DesignatedDriver.core;
+package cn.phpst.designatedDriver.core;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
